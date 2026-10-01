@@ -1,0 +1,25 @@
+{
+    "name": "osynapsy/html-bcl5-datepicker",
+    "version": "1.0",
+    "homepage": "http://www.osynapsy.net/html-bcl5-datepicker",
+    "type": "library",
+    "description": "Osynapsy bs5 datepicker component",
+    "keywords": ["Osynapsy", "Bootstrap 5 datepicker component"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pietro Celeste",
+            "email": "p.celeste@osynapsy.net",
+            "homepage": "https://github.com/osynapsy/html-bcl5-datepicker/wiki"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2.0",
+        "osynapsy/osynapsy-html-bcl5" : "1.*"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Osynapsy\\Bcl5\\DatePicker\\": "src/"
+        }
+    }
+}
